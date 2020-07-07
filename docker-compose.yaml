@@ -1,0 +1,17 @@
+version: "3.5"
+
+services: 
+  secret:
+    build: .
+    restart: unless-stopped
+    ports:
+          - "4142:4142"
+          - "1212:1212"
+    env_file: 
+      - .env
+    volumes: 
+      - ./dist/controllers:/usr/src/app/dist/controllers
+networks:
+  default:
+    external:
+      name: main_network
