@@ -43,7 +43,7 @@
     "express-session": "^1.17.1",
     "giphy-js-sdk-core": "^1.0.6",
     "got": "^11.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mongoose": "^5.9.12",
     "morgan": "^1.10.0",
     "request": "^2.88.2",
