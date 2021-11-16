@@ -31,7 +31,7 @@
     "@types/typescript": "^2.0.0",
     "@types/websocket": "^1.0.0",
     "@types/ws": "^7.2.6",
-    "aws-sdk": "^2.669.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "chalk": "^4.0.0",
